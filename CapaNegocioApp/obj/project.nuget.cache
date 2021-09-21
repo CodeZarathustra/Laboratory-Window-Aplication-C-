@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "w2i12M+/bOLcuuTBfolLPUTXvx2N/1E/KaB1Igi9qs2i7emqWIWWsgGlvbbLEv6o2ZAdtE6gT2m5Z25YnpPXbQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Usuario\\source\\repos\\AppCitas\\CapaNegocioApp\\CapaNegocioApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
