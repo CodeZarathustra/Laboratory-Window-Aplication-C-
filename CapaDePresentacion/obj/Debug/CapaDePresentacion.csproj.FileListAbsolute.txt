@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\AppCitas\CapaDePresentacion\bin\Debug\CapaDePresentacion.exe.config
+C:\Users\Usuario\source\repos\AppCitas\CapaDePresentacion\bin\Debug\CapaDePresentacion.exe
+C:\Users\Usuario\source\repos\AppCitas\CapaDePresentacion\bin\Debug\CapaDePresentacion.pdb
+C:\Users\Usuario\source\repos\AppCitas\CapaDePresentacion\obj\Debug\CapaDePresentacion.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\AppCitas\CapaDePresentacion\obj\Debug\CapaDePresentacion.Properties.Resources.resources
+C:\Users\Usuario\source\repos\AppCitas\CapaDePresentacion\obj\Debug\CapaDePresentacion.csproj.GenerateResource.cache
+C:\Users\Usuario\source\repos\AppCitas\CapaDePresentacion\obj\Debug\CapaDePresentacion.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\AppCitas\CapaDePresentacion\obj\Debug\CapaDePresentacion.exe
+C:\Users\Usuario\source\repos\AppCitas\CapaDePresentacion\obj\Debug\CapaDePresentacion.pdb
+C:\Users\Usuario\source\repos\AppCitas\CapaDePresentacion\bin\Debug\CapaEntidades.dll
+C:\Users\Usuario\source\repos\AppCitas\CapaDePresentacion\bin\Debug\CapaNegocioApp.dll
+C:\Users\Usuario\source\repos\AppCitas\CapaDePresentacion\bin\Debug\CapaEntidades.pdb
+C:\Users\Usuario\source\repos\AppCitas\CapaDePresentacion\bin\Debug\CapaNegocioApp.pdb
+C:\Users\Usuario\source\repos\AppCitas\CapaDePresentacion\obj\Debug\CapaDePresentacion.csproj.CopyComplete
+C:\Users\Usuario\source\repos\AppCitas\CapaDePresentacion\obj\Debug\CapaDePresentacion.Contenedor.resources

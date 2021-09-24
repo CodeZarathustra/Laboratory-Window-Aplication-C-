@@ -1,0 +1,14 @@
+C:\Users\Usuario\source\repos\AppCitas\CapaNegocioApp\bin\Debug\netstandard2.0\CapaNegocioApp.deps.json
+C:\Users\Usuario\source\repos\AppCitas\CapaNegocioApp\bin\Debug\netstandard2.0\CapaNegocioApp.dll
+C:\Users\Usuario\source\repos\AppCitas\CapaNegocioApp\bin\Debug\netstandard2.0\CapaNegocioApp.pdb
+C:\Users\Usuario\source\repos\AppCitas\CapaNegocioApp\bin\Debug\netstandard2.0\CapaDatos.dll
+C:\Users\Usuario\source\repos\AppCitas\CapaNegocioApp\bin\Debug\netstandard2.0\CapaEntidades.dll
+C:\Users\Usuario\source\repos\AppCitas\CapaNegocioApp\bin\Debug\netstandard2.0\CapaEntidades.pdb
+C:\Users\Usuario\source\repos\AppCitas\CapaNegocioApp\bin\Debug\netstandard2.0\CapaDatos.pdb
+C:\Users\Usuario\source\repos\AppCitas\CapaNegocioApp\obj\Debug\netstandard2.0\CapaNegocioApp.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\AppCitas\CapaNegocioApp\obj\Debug\netstandard2.0\CapaNegocioApp.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\AppCitas\CapaNegocioApp\obj\Debug\netstandard2.0\CapaNegocioApp.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\AppCitas\CapaNegocioApp\obj\Debug\netstandard2.0\CapaNegocioApp.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\AppCitas\CapaNegocioApp\obj\Debug\netstandard2.0\CapaNegocioApp.csproj.CopyComplete
+C:\Users\Usuario\source\repos\AppCitas\CapaNegocioApp\obj\Debug\netstandard2.0\CapaNegocioApp.dll
+C:\Users\Usuario\source\repos\AppCitas\CapaNegocioApp\obj\Debug\netstandard2.0\CapaNegocioApp.pdb

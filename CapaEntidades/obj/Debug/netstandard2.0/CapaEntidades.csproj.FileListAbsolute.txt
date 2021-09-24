@@ -1,0 +1,12 @@
+C:\Users\Usuario\source\repos\AppCitas\CapaEntidades\bin\Debug\netstandard2.0\CapaEntidades.deps.json
+C:\Users\Usuario\source\repos\AppCitas\CapaEntidades\bin\Debug\netstandard2.0\CapaEntidades.dll
+C:\Users\Usuario\source\repos\AppCitas\CapaEntidades\bin\Debug\netstandard2.0\CapaEntidades.pdb
+C:\Users\Usuario\source\repos\AppCitas\CapaEntidades\bin\Debug\netstandard2.0\CapaDatos.dll
+C:\Users\Usuario\source\repos\AppCitas\CapaEntidades\bin\Debug\netstandard2.0\CapaDatos.pdb
+C:\Users\Usuario\source\repos\AppCitas\CapaEntidades\obj\Debug\netstandard2.0\CapaEntidades.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\AppCitas\CapaEntidades\obj\Debug\netstandard2.0\CapaEntidades.AssemblyInfoInputs.cache
+C:\Users\Usuario\source\repos\AppCitas\CapaEntidades\obj\Debug\netstandard2.0\CapaEntidades.AssemblyInfo.cs
+C:\Users\Usuario\source\repos\AppCitas\CapaEntidades\obj\Debug\netstandard2.0\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\source\repos\AppCitas\CapaEntidades\obj\Debug\netstandard2.0\CapaEntidades.csproj.CopyComplete
+C:\Users\Usuario\source\repos\AppCitas\CapaEntidades\obj\Debug\netstandard2.0\CapaEntidades.dll
+C:\Users\Usuario\source\repos\AppCitas\CapaEntidades\obj\Debug\netstandard2.0\CapaEntidades.pdb
