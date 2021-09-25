@@ -7,7 +7,7 @@ using System.Data;
 
 namespace CapaDatos
 {
-    class ADCustomer : DatabaseConnection
+    public class ADCustomer : DatabaseConnection
     {
         //Add Customer Method 
         public void addCustomer(String customerId, String nameCustomer,String addressCutomer,String telNumberCus, String emailCustomer)
@@ -44,7 +44,8 @@ namespace CapaDatos
             }
             catch (Exception Ex)
             {
-                //_SqlCommand.Connection.Close();
+                //Probar si se cierra la conexion
+                _sqlCommand.Connection.Close();
                 throw Ex;
             }
             finally

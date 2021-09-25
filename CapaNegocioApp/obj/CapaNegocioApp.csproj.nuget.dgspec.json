@@ -122,6 +122,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             }
           },
           "imports": [
@@ -166,6 +170,9 @@
           "netstandard2.0": {
             "targetAlias": "netstandard2.0",
             "projectReferences": {
+              "C:\\Users\\Usuario\\source\\repos\\AppCitas\\CapaDatos\\CapaDatos.csproj": {
+                "projectPath": "C:\\Users\\Usuario\\source\\repos\\AppCitas\\CapaDatos\\CapaDatos.csproj"
+              },
               "C:\\Users\\Usuario\\source\\repos\\AppCitas\\CapaEntidades\\CapaEntidades.csproj": {
                 "projectPath": "C:\\Users\\Usuario\\source\\repos\\AppCitas\\CapaEntidades\\CapaEntidades.csproj"
               }
@@ -187,6 +194,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
             }
           },
           "imports": [

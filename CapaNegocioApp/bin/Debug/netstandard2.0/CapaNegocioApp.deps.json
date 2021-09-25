@@ -9,8 +9,10 @@
     ".NETStandard,Version=v2.0/": {
       "CapaNegocioApp/1.0.0": {
         "dependencies": {
+          "CapaDatos": "1.0.0",
           "CapaEntidades": "1.0.0",
-          "NETStandard.Library": "2.0.3"
+          "NETStandard.Library": "2.0.3",
+          "System.Data.SqlClient": "4.8.3"
         },
         "runtime": {
           "CapaNegocioApp.dll": {}
@@ -186,7 +188,8 @@
       },
       "CapaEntidades/1.0.0": {
         "dependencies": {
-          "CapaDatos": "1.0.0"
+          "CapaDatos": "1.0.0",
+          "System.Data.SqlClient": "4.8.3"
         },
         "runtime": {
           "CapaEntidades.dll": {}

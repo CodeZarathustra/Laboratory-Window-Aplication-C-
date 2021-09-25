@@ -279,7 +279,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "CapaDatos": "1.0.0"
+          "CapaDatos": "1.0.0",
+          "System.Data.SqlClient": "4.8.3"
         },
         "compile": {
           "bin/placeholder/CapaEntidades.dll": {}
@@ -1035,8 +1036,10 @@
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "CapaDatos >= 1.0.0",
       "CapaEntidades >= 1.0.0",
-      "NETStandard.Library >= 2.0.3"
+      "NETStandard.Library >= 2.0.3",
+      "System.Data.SqlClient >= 4.8.3"
     ]
   },
   "packageFolders": {
@@ -1071,6 +1074,9 @@
         "netstandard2.0": {
           "targetAlias": "netstandard2.0",
           "projectReferences": {
+            "C:\\Users\\Usuario\\source\\repos\\AppCitas\\CapaDatos\\CapaDatos.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\source\\repos\\AppCitas\\CapaDatos\\CapaDatos.csproj"
+            },
             "C:\\Users\\Usuario\\source\\repos\\AppCitas\\CapaEntidades\\CapaEntidades.csproj": {
               "projectPath": "C:\\Users\\Usuario\\source\\repos\\AppCitas\\CapaEntidades\\CapaEntidades.csproj"
             }
@@ -1092,6 +1098,10 @@
             "target": "Package",
             "version": "[2.0.3, )",
             "autoReferenced": true
+          },
+          "System.Data.SqlClient": {
+            "target": "Package",
+            "version": "[4.8.3, )"
           }
         },
         "imports": [
