@@ -88,6 +88,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="App1.config" />
     <None Include="packages.config" />
@@ -110,6 +111,12 @@
       <Project>{304ea9e9-5a86-4627-967b-dd911c885b2f}</Project>
       <Name>CapaNegocioApp</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1763.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17631.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

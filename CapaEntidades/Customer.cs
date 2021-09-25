@@ -24,9 +24,6 @@ namespace CapaEntidades
         
         }
 
-        //Ingresar cliente metodos-Primer debo conetcar con una clase controladora
-
-        
 
     }
 }

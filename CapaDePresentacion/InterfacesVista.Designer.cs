@@ -32,15 +32,15 @@ namespace CapaDePresentacion
             this.tabControlContenedor = new System.Windows.Forms.TabControl();
             this.Ingresar = new System.Windows.Forms.TabPage();
             this.buttonLimpiar = new System.Windows.Forms.Button();
-            this.buttonGuarda = new System.Windows.Forms.Button();
+            this.buttonGuardarNPro = new System.Windows.Forms.Button();
             this.labelCantidadIngresar = new System.Windows.Forms.Label();
             this.labelValorIngresar = new System.Windows.Forms.Label();
             this.labelDescripcionIngresar = new System.Windows.Forms.Label();
             this.LabelCodigoIngresar = new System.Windows.Forms.Label();
-            this.textBox4Cantidad = new System.Windows.Forms.TextBox();
-            this.textBox3Valor = new System.Windows.Forms.TextBox();
-            this.textBox2Descripcion = new System.Windows.Forms.TextBox();
-            this.textBox1Codigo = new System.Windows.Forms.TextBox();
+            this.textBox4CantidadIngre = new System.Windows.Forms.TextBox();
+            this.textBox3ValorIngre = new System.Windows.Forms.TextBox();
+            this.textBox2DescripcionIngr = new System.Windows.Forms.TextBox();
+            this.textBox1CodigoIngr = new System.Windows.Forms.TextBox();
             this.Consultar = new System.Windows.Forms.TabPage();
             this.tablaResultadosConsulta = new System.Windows.Forms.TableLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
@@ -96,15 +96,15 @@ namespace CapaDePresentacion
             // Ingresar
             // 
             this.Ingresar.Controls.Add(this.buttonLimpiar);
-            this.Ingresar.Controls.Add(this.buttonGuarda);
+            this.Ingresar.Controls.Add(this.buttonGuardarNPro);
             this.Ingresar.Controls.Add(this.labelCantidadIngresar);
             this.Ingresar.Controls.Add(this.labelValorIngresar);
             this.Ingresar.Controls.Add(this.labelDescripcionIngresar);
             this.Ingresar.Controls.Add(this.LabelCodigoIngresar);
-            this.Ingresar.Controls.Add(this.textBox4Cantidad);
-            this.Ingresar.Controls.Add(this.textBox3Valor);
-            this.Ingresar.Controls.Add(this.textBox2Descripcion);
-            this.Ingresar.Controls.Add(this.textBox1Codigo);
+            this.Ingresar.Controls.Add(this.textBox4CantidadIngre);
+            this.Ingresar.Controls.Add(this.textBox3ValorIngre);
+            this.Ingresar.Controls.Add(this.textBox2DescripcionIngr);
+            this.Ingresar.Controls.Add(this.textBox1CodigoIngr);
             this.Ingresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Ingresar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.Ingresar.Location = new System.Drawing.Point(4, 22);
@@ -126,18 +126,20 @@ namespace CapaDePresentacion
             this.buttonLimpiar.TabIndex = 9;
             this.buttonLimpiar.Text = "Limpiar";
             this.buttonLimpiar.UseVisualStyleBackColor = false;
+            this.buttonLimpiar.Click += new System.EventHandler(this.buttonLimpiar_Click);
             // 
-            // buttonGuarda
+            // buttonGuardarNPro
             // 
-            this.buttonGuarda.BackColor = System.Drawing.Color.Lime;
-            this.buttonGuarda.ForeColor = System.Drawing.Color.White;
-            this.buttonGuarda.Location = new System.Drawing.Point(141, 208);
-            this.buttonGuarda.Name = "buttonGuarda";
-            this.buttonGuarda.Size = new System.Drawing.Size(141, 34);
-            this.buttonGuarda.TabIndex = 8;
-            this.buttonGuarda.Text = "Guardar";
-            this.buttonGuarda.UseMnemonic = false;
-            this.buttonGuarda.UseVisualStyleBackColor = false;
+            this.buttonGuardarNPro.BackColor = System.Drawing.Color.Lime;
+            this.buttonGuardarNPro.ForeColor = System.Drawing.Color.White;
+            this.buttonGuardarNPro.Location = new System.Drawing.Point(141, 208);
+            this.buttonGuardarNPro.Name = "buttonGuardarNPro";
+            this.buttonGuardarNPro.Size = new System.Drawing.Size(141, 34);
+            this.buttonGuardarNPro.TabIndex = 8;
+            this.buttonGuardarNPro.Text = "Guardar";
+            this.buttonGuardarNPro.UseMnemonic = false;
+            this.buttonGuardarNPro.UseVisualStyleBackColor = false;
+            this.buttonGuardarNPro.Click += new System.EventHandler(this.buttonGuardarNPro_Click);
             // 
             // labelCantidadIngresar
             // 
@@ -176,34 +178,34 @@ namespace CapaDePresentacion
             this.LabelCodigoIngresar.Text = "Código:";
             this.LabelCodigoIngresar.Click += new System.EventHandler(this.label1_Click_1);
             // 
-            // textBox4Cantidad
+            // textBox4CantidadIngre
             // 
-            this.textBox4Cantidad.Location = new System.Drawing.Point(194, 163);
-            this.textBox4Cantidad.Name = "textBox4Cantidad";
-            this.textBox4Cantidad.Size = new System.Drawing.Size(304, 29);
-            this.textBox4Cantidad.TabIndex = 3;
+            this.textBox4CantidadIngre.Location = new System.Drawing.Point(194, 163);
+            this.textBox4CantidadIngre.Name = "textBox4CantidadIngre";
+            this.textBox4CantidadIngre.Size = new System.Drawing.Size(304, 29);
+            this.textBox4CantidadIngre.TabIndex = 3;
             // 
-            // textBox3Valor
+            // textBox3ValorIngre
             // 
-            this.textBox3Valor.Location = new System.Drawing.Point(194, 120);
-            this.textBox3Valor.Name = "textBox3Valor";
-            this.textBox3Valor.Size = new System.Drawing.Size(304, 29);
-            this.textBox3Valor.TabIndex = 2;
+            this.textBox3ValorIngre.Location = new System.Drawing.Point(194, 120);
+            this.textBox3ValorIngre.Name = "textBox3ValorIngre";
+            this.textBox3ValorIngre.Size = new System.Drawing.Size(304, 29);
+            this.textBox3ValorIngre.TabIndex = 2;
             // 
-            // textBox2Descripcion
+            // textBox2DescripcionIngr
             // 
-            this.textBox2Descripcion.Location = new System.Drawing.Point(194, 74);
-            this.textBox2Descripcion.Name = "textBox2Descripcion";
-            this.textBox2Descripcion.Size = new System.Drawing.Size(304, 29);
-            this.textBox2Descripcion.TabIndex = 1;
+            this.textBox2DescripcionIngr.Location = new System.Drawing.Point(194, 74);
+            this.textBox2DescripcionIngr.Name = "textBox2DescripcionIngr";
+            this.textBox2DescripcionIngr.Size = new System.Drawing.Size(304, 29);
+            this.textBox2DescripcionIngr.TabIndex = 1;
             // 
-            // textBox1Codigo
+            // textBox1CodigoIngr
             // 
-            this.textBox1Codigo.Location = new System.Drawing.Point(194, 33);
-            this.textBox1Codigo.Name = "textBox1Codigo";
-            this.textBox1Codigo.Size = new System.Drawing.Size(304, 29);
-            this.textBox1Codigo.TabIndex = 0;
-            this.textBox1Codigo.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBox1CodigoIngr.Location = new System.Drawing.Point(194, 33);
+            this.textBox1CodigoIngr.Name = "textBox1CodigoIngr";
+            this.textBox1CodigoIngr.Size = new System.Drawing.Size(304, 29);
+            this.textBox1CodigoIngr.TabIndex = 0;
+            this.textBox1CodigoIngr.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Consultar
             // 
@@ -227,7 +229,7 @@ namespace CapaDePresentacion
             this.tablaResultadosConsulta.ColumnCount = 3;
             this.tablaResultadosConsulta.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.59249F));
             this.tablaResultadosConsulta.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 76.40751F));
-            this.tablaResultadosConsulta.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 111F));
+            this.tablaResultadosConsulta.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 120F));
             this.tablaResultadosConsulta.Controls.Add(this.label2, 0, 0);
             this.tablaResultadosConsulta.Controls.Add(this.label3, 1, 0);
             this.tablaResultadosConsulta.Controls.Add(this.label4, 2, 0);
@@ -247,7 +249,7 @@ namespace CapaDePresentacion
             this.label2.ForeColor = System.Drawing.Color.Black;
             this.label2.Location = new System.Drawing.Point(5, 2);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(78, 25);
+            this.label2.Size = new System.Drawing.Size(76, 25);
             this.label2.TabIndex = 5;
             this.label2.Text = "Código";
             this.label2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -259,9 +261,9 @@ namespace CapaDePresentacion
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(91, 2);
+            this.label3.Location = new System.Drawing.Point(89, 2);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(269, 25);
+            this.label3.Size = new System.Drawing.Size(262, 25);
             this.label3.TabIndex = 6;
             this.label3.Text = "Descripción";
             this.label3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -272,9 +274,9 @@ namespace CapaDePresentacion
             this.label4.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F);
             this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(368, 2);
+            this.label4.Location = new System.Drawing.Point(359, 2);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(106, 25);
+            this.label4.Size = new System.Drawing.Size(115, 25);
             this.label4.TabIndex = 7;
             this.label4.Text = "Valor";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -400,8 +402,8 @@ namespace CapaDePresentacion
             // 
             this.labelTitulo.AutoSize = true;
             this.labelTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTitulo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.labelTitulo.Location = new System.Drawing.Point(161, 9);
+            this.labelTitulo.ForeColor = System.Drawing.Color.Black;
+            this.labelTitulo.Location = new System.Drawing.Point(180, 10);
             this.labelTitulo.Name = "labelTitulo";
             this.labelTitulo.Size = new System.Drawing.Size(0, 25);
             this.labelTitulo.TabIndex = 1;
@@ -411,6 +413,7 @@ namespace CapaDePresentacion
             // panel1CustomerField
             // 
             this.panel1CustomerField.BackColor = System.Drawing.Color.PaleGreen;
+            this.panel1CustomerField.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1CustomerField.Controls.Add(this.buttonGuardarNuCliente);
             this.panel1CustomerField.Controls.Add(this.textBox5EmailCliente);
             this.panel1CustomerField.Controls.Add(this.textBox4CelularCliente);
@@ -422,6 +425,7 @@ namespace CapaDePresentacion
             this.panel1CustomerField.Controls.Add(this.label7);
             this.panel1CustomerField.Controls.Add(this.labelI);
             this.panel1CustomerField.Controls.Add(this.label5);
+            this.panel1CustomerField.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.panel1CustomerField.Location = new System.Drawing.Point(38, 40);
             this.panel1CustomerField.Name = "panel1CustomerField";
             this.panel1CustomerField.Size = new System.Drawing.Size(538, 235);
@@ -446,28 +450,28 @@ namespace CapaDePresentacion
             // 
             this.textBox5EmailCliente.Location = new System.Drawing.Point(138, 162);
             this.textBox5EmailCliente.Name = "textBox5EmailCliente";
-            this.textBox5EmailCliente.Size = new System.Drawing.Size(255, 20);
+            this.textBox5EmailCliente.Size = new System.Drawing.Size(255, 23);
             this.textBox5EmailCliente.TabIndex = 9;
             // 
             // textBox4CelularCliente
             // 
             this.textBox4CelularCliente.Location = new System.Drawing.Point(137, 130);
             this.textBox4CelularCliente.Name = "textBox4CelularCliente";
-            this.textBox4CelularCliente.Size = new System.Drawing.Size(256, 20);
+            this.textBox4CelularCliente.Size = new System.Drawing.Size(256, 23);
             this.textBox4CelularCliente.TabIndex = 8;
             // 
             // textBox3DireccionCliente
             // 
             this.textBox3DireccionCliente.Location = new System.Drawing.Point(137, 93);
             this.textBox3DireccionCliente.Name = "textBox3DireccionCliente";
-            this.textBox3DireccionCliente.Size = new System.Drawing.Size(256, 20);
+            this.textBox3DireccionCliente.Size = new System.Drawing.Size(256, 23);
             this.textBox3DireccionCliente.TabIndex = 7;
             // 
             // textBox2NombreCliente
             // 
             this.textBox2NombreCliente.Location = new System.Drawing.Point(137, 57);
             this.textBox2NombreCliente.Name = "textBox2NombreCliente";
-            this.textBox2NombreCliente.Size = new System.Drawing.Size(256, 20);
+            this.textBox2NombreCliente.Size = new System.Drawing.Size(256, 23);
             this.textBox2NombreCliente.TabIndex = 6;
             this.textBox2NombreCliente.TextChanged += new System.EventHandler(this.textBox2NombreCliente_TextChanged);
             // 
@@ -475,17 +479,17 @@ namespace CapaDePresentacion
             // 
             this.textBoxIDCliente.Location = new System.Drawing.Point(137, 21);
             this.textBoxIDCliente.Name = "textBoxIDCliente";
-            this.textBoxIDCliente.Size = new System.Drawing.Size(256, 20);
+            this.textBoxIDCliente.Size = new System.Drawing.Size(256, 23);
             this.textBoxIDCliente.TabIndex = 5;
             this.textBoxIDCliente.TextChanged += new System.EventHandler(this.textBoxIDCliente_TextChanged);
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.label9.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(45, 160);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(71, 25);
+            this.label9.Size = new System.Drawing.Size(66, 28);
             this.label9.TabIndex = 4;
             this.label9.Text = "Email:";
             this.label9.Click += new System.EventHandler(this.label9_Click);
@@ -493,30 +497,30 @@ namespace CapaDePresentacion
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.label8.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(30, 128);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(86, 25);
+            this.label8.Size = new System.Drawing.Size(81, 28);
             this.label8.TabIndex = 3;
             this.label8.Text = "Celular:";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.label7.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(8, 90);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(108, 25);
+            this.label7.Size = new System.Drawing.Size(106, 28);
             this.label7.TabIndex = 2;
             this.label7.Text = "Dirección:";
             // 
             // labelI
             // 
             this.labelI.AutoSize = true;
-            this.labelI.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.labelI.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.labelI.Location = new System.Drawing.Point(81, 21);
             this.labelI.Name = "labelI";
-            this.labelI.Size = new System.Drawing.Size(35, 25);
+            this.labelI.Size = new System.Drawing.Size(41, 28);
             this.labelI.TabIndex = 1;
             this.labelI.Text = "Id:";
             this.labelI.Click += new System.EventHandler(this.label6_Click);
@@ -524,22 +528,25 @@ namespace CapaDePresentacion
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.25F);
+            this.label5.Font = new System.Drawing.Font("Comic Sans MS", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.Location = new System.Drawing.Point(23, 52);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(93, 25);
+            this.label5.Size = new System.Drawing.Size(93, 28);
             this.label5.TabIndex = 0;
             this.label5.Text = "Nombre:";
             // 
             // comboBoxSelectVista
             // 
+            this.comboBoxSelectVista.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.comboBoxSelectVista.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.25F);
+            this.comboBoxSelectVista.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.comboBoxSelectVista.FormattingEnabled = true;
             this.comboBoxSelectVista.Items.AddRange(new object[] {
-            "Producto",
-            "Cliente"});
+            "Gestionar Producto",
+            "Agregar Cliente"});
             this.comboBoxSelectVista.Location = new System.Drawing.Point(21, 12);
             this.comboBoxSelectVista.Name = "comboBoxSelectVista";
-            this.comboBoxSelectVista.Size = new System.Drawing.Size(119, 21);
+            this.comboBoxSelectVista.Size = new System.Drawing.Size(153, 25);
             this.comboBoxSelectVista.TabIndex = 10;
             this.comboBoxSelectVista.Text = "Seleccionar";
             this.comboBoxSelectVista.SelectedIndexChanged += new System.EventHandler(this.comboBoxSelectVista_SelectedIndexChanged);
@@ -548,12 +555,15 @@ namespace CapaDePresentacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.SeaShell;
+            this.BackColor = System.Drawing.Color.PaleGreen;
+            this.BackgroundImage = global::CapaDePresentacion.Properties.Resources._17631;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(617, 337);
+            this.Controls.Add(this.tabControlContenedor);
             this.Controls.Add(this.panel1CustomerField);
             this.Controls.Add(this.comboBoxSelectVista);
             this.Controls.Add(this.labelTitulo);
-            this.Controls.Add(this.tabControlContenedor);
+            this.DoubleBuffered = true;
             this.Name = "Contenedor";
             this.Text = "NaturVida";
             this.tabControlContenedor.ResumeLayout(false);
@@ -586,12 +596,12 @@ namespace CapaDePresentacion
         private System.Windows.Forms.Label labelValorIngresar;
         private System.Windows.Forms.Label labelDescripcionIngresar;
         private System.Windows.Forms.Label LabelCodigoIngresar;
-        private System.Windows.Forms.TextBox textBox4Cantidad;
-        private System.Windows.Forms.TextBox textBox3Valor;
-        private System.Windows.Forms.TextBox textBox2Descripcion;
-        private System.Windows.Forms.TextBox textBox1Codigo;
+        private System.Windows.Forms.TextBox textBox4CantidadIngre;
+        private System.Windows.Forms.TextBox textBox3ValorIngre;
+        private System.Windows.Forms.TextBox textBox2DescripcionIngr;
+        private System.Windows.Forms.TextBox textBox1CodigoIngr;
         private System.Windows.Forms.Button buttonLimpiar;
-        private System.Windows.Forms.Button buttonGuarda;
+        private System.Windows.Forms.Button buttonGuardarNPro;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TableLayoutPanel tablaResultadosConsulta;
         private System.Windows.Forms.Button buttonConsultar;

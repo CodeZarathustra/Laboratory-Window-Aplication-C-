@@ -111,15 +111,74 @@ namespace CapaDePresentacion
             String direccion = textBox3DireccionCliente.Text;
             String celular = textBox4CelularCliente.Text;
             String email = textBox5EmailCliente.Text;
+            //Se utiliza la clase de la capa de Entidad
             Customer customer = new Customer(id,nombre,direccion,celular,email);
             //Se instancia un objeto de la clase agragar cliente desde al capa
             //de negocios
-            AgregarCliente nuevoCliente = new AgregarCliente();
+            Agregar nuevoCliente = new Agregar();
             nuevoCliente.addCustomer(customer);
 
+            //OcultarPanel
+            panel1CustomerField.Visible = false;
 
+            //Limpiar Datos 
+            textBoxIDCliente.Clear();
+            textBox2NombreCliente.Clear();
+            textBox3DireccionCliente.Clear();
+            textBox4CelularCliente.Clear();
+            textBox5EmailCliente.Clear();
+
+
+
+        }
+
+        private void saveFileDialog1_FileOk(object sender, CancelEventArgs e)
+        {
+
+        }
+
+        private void buttonGuardarNPro_Click(object sender, EventArgs e)
+        {
+            //Se accede a los cmapos ingresado en el textBox
+            string codeProucto = textBox1CodigoIngr.Text;
+            string  descriProduc= textBox2DescripcionIngr.Text;
+            //If structure for convert an delimiter 
+            string precioProd = textBox3ValorIngre.Text;
+            Int64 valorPrecioConvertido;
+            string cantidadPrdo = textBox4CantidadIngre.Text;
+            int valorCantidadConver;
+            if (Int64.TryParse(precioProd,out valorPrecioConvertido)&&int.TryParse(cantidadPrdo, out valorCantidadConver ))
+            {
+                Product producto = new Product(codeProucto,descriProduc,valorPrecioConvertido,valorCantidadConver);
+
+                Agregar nuevoProducto = new Agregar();
+                nuevoProducto.addProducto(producto);
+
+                //Limpiar campos
+                textBox1CodigoIngr.Clear();
+                textBox2DescripcionIngr.Clear();
+                textBox3ValorIngre.Clear();
+                textBox4CantidadIngre.Clear();
+
+            } else
+            {
+                //Mensage de error
+                //textBox1CodigoIngr.Clear();
+                //textBox2DescripcionIngr.Clear();
+                textBox3ValorIngre.Text = "Error: Campos numericos*";
+                textBox4CantidadIngre.Text = "Error: Campos numericos*";
+                
+            }
             
-        
+            
+        }
+
+        private void buttonLimpiar_Click(object sender, EventArgs e)
+        {
+            textBox1CodigoIngr.Clear();
+            textBox2DescripcionIngr.Clear();
+            textBox3ValorIngre.Clear();
+            textBox4CantidadIngre.Clear();
         }
     }
 }
