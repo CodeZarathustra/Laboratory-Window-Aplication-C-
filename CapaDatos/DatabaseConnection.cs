@@ -10,14 +10,15 @@ namespace CapaDatos
     {
         //This is the intantiation of a SqlConnetion object 
         SqlConnection conection = new SqlConnection();
-        string objCadenaConexion = string.Empty;
+        //string objCadenaConexion = string.Empty;
 
         //This is the function to stablish a connetion with database
         public SqlConnection conect()
         {
             try { 
-            objCadenaConexion = ConfigurationManager.ConnectionStrings["ConnSql"].ConnectionString;
-                conection = new SqlConnection(objCadenaConexion);
+           // objCadenaConexion = ConfigurationManager.ConnectionStrings["ConnSql"].ConnectionString;
+               // conection = new SqlConnection(objCadenaConexion);
+                conection = new SqlConnection("data Source=DESKTOP-EVOA1H9;initial catalog=NaturVidadb;Integrated Security=True;");
                 conection.Open();
 
                 return conection;
